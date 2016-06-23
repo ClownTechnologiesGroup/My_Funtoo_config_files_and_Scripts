@@ -1,0 +1,7 @@
+cat /etc/portage/make.conf > ~/Funtoo/make.conf
+cat /etc/portage/package.mask |grep -v "#"|sort > ~/Funtoo/package.mask
+cat /etc/portage/package.unmask |grep -v "#"|sort > ~/Funtoo/package.unmask
+cat /etc/portage/package.use |grep -v "#"|sort > ~/Funtoo/package.use
+cat /etc/portage/package.accept_keywords |grep -v "#"|sort > ~/Funtoo/package.accept_keywords
+cat /var/lib/portage/world > ~/Funtoo/World
+cat /etc/kernels/kernel-config-`uname -m`-`uname -r`> ~/Funtoo/kernel-config-`uname -m`-`uname -r`

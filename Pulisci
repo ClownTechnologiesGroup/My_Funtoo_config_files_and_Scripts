@@ -1,0 +1,4 @@
+rm -rf /usr/portage/distfiles
+rm -rf /var/tmp/portage
+rm -rf /var/tmp/genkernel
+rm -rf /dev/shm/portage

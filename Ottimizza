@@ -1,0 +1,1 @@
+emerge -DNu world --with-bdeps=y && emerge @preserved-rebuild &&revdep-rebuild && sh Pulisci && sh Clean_kernel

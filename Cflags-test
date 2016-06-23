@@ -1,0 +1,1 @@
+echo 'int main(){return 0;}' > test.c && gcc -v -Q -march=native -O2 test.c -o test && rm test.c test
