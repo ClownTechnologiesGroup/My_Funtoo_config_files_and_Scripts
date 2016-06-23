@@ -1,0 +1,18 @@
+# /etc/fstab: static file system information.
+#
+# The root filesystem should have a pass number of either 0 or 1.
+# All other filesystems should have a pass number of 0 or greater than 1.
+#
+# NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
+#
+# See the manpage fstab(5) for more information.
+#
+# <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
+
+/dev/sda3		/boot		ext4		noatime,noauto		1 2
+/dev/sda5		none		swap		sw				0 0
+/dev/sda6		/		btrfs		noatime,compress		0 1
+/dev/sdb2		/home		xfs		noatime				1 2
+/dev/sdb1		/mnt/Volume	ntfs-3g		defaults			0 0
+#/dev/cdrom		/mnt/cdrom	auto		noauto,ro			0 0
+shm			/dev/shm	tmpfs		exec,rw				0 0
