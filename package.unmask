@@ -1,4 +1,7 @@
 =app-text/cuneiform-1.1.0-r1
+=kde-apps/mplayerthumbs-4.14.3
 =kde-plasma/polkit-kde-agent-5.5.5
+=sys-auth/consolekit-1.0.1
 app-benchmarks/phoronix-test-suite
 sci-geosciences/googleearth
+x11-misc/sddm
