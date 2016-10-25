@@ -1,5 +1,13 @@
-
+=dev-qt/qtwebkit-4.8.6-r1 -gstreamer
+>=dev-lang/fpc-2.6.4 source
+>=kde-apps/solid-runtime-15.12.3 -bluetooth
+>=media-libs/libvpx-1.5.0 svc
+>=media-libs/mlt-6.2.0-r1 qt5
+>=media-libs/opencv-2.4.12-r1 -qt5
+>=x11-libs/goffice-0.8.17-r2:0.8 gnome
+>=x11-misc/lightdm-1.16.7 qt4
 app-crypt/pinentry gnome-keyring
+app-office/scribus scripts
 app-text/poppler qt4
 dev-db/mariadb embedded
 dev-java/oracle-jdk-bin javafx
@@ -31,24 +39,29 @@ media-libs/libopenraw gtk
 media-libs/libpng apng
 media-libs/mesa gles2
 media-libs/mlt frei0r melt kdenlive -qt5
+media-libs/phonon-gstreamer qt4
 media-plugins/alsa-plugins pulseaudio
 media-sound/pavucontrol -gtk2
-media-sound/pulseaudio equalizer realtime
+media-sound/pulseaudio realtime
 media-tv/kodi airplay goom srtp -pvr
+media-video/avidemux qt4
 media-video/ffmpeg fdk flite fribidi libv4l
+media-video/simplescreenrecorder -qt4
 net-dns/dnsmasq -lua
 net-libs/gnutls pkcs11
 net-libs/libmicrohttpd messages
 net-libs/libproxy -webkit
+net-libs/telepathy-qt farstream
 net-misc/curl -adns
 net-misc/networkmanager -gnutls
 net-print/hplip hpijs
 sci-geosciences/gpsd qt4
+sys-boot/refind ntfs reiserfs hfs btrfs
 sys-devel/gcc ada objc objc++ go graphite
 sys-devel/llvm clang
 sys-kernel/gentoo-sources experimental
 sys-power/cpupower cpufreq_bench
 sys-process/lsof rpc
 virtual/mysql embedded
-x11-drivers/nvidia-drivers uvm static-libs
+x11-drivers/nvidia-drivers uvm
 x11-libs/libxcb xkb

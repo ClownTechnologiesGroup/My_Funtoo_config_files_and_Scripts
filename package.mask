@@ -1,1 +1,2 @@
-=x11-base/xorg-server-1.17.4
+=dev-util/gambas-3.8.4
+=media-gfx/blender-2.78

@@ -1,3 +1,2 @@
 00	23	1	*	*	/sbin/fstrim -v -a >> /var/log/fstrim.log
 00	22	*	*	*	/usr/bin/updatedb
-00	21	*	*	*	/usr/bin/egencache --update-use-local-desc
