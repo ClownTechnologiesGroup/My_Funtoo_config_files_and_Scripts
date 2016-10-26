@@ -9,10 +9,11 @@
 #
 # <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
 
-/dev/sda3		/boot		ext4		noatime,noauto		1 2
-/dev/sda5		none		swap		sw				0 0
-/dev/sda6		/		btrfs		noatime,compress		0 1
-/dev/sdb2		/home		xfs		noatime				1 2
-/dev/sdb1		/mnt/Volume	ntfs-3g		defaults			0 0
-#/dev/cdrom		/mnt/cdrom	auto		noauto,ro			0 0
-shm			/dev/shm	tmpfs		exec,rw				0 0
+/dev/sda5	/boot			ext4	noauto,noatime,discard				1 2
+/dev/sdb3	none			swap	sw						0 0
+/dev/sda6	/			ext4	noatime						0 1
+/dev/sdb2	/home			ext4	noatime,discard					1 2
+/dev/sdb1	/mnt/Volume		ntfs-3g	defaults					0 0
+#/dev/cdrom	/mnt/cdrom		auto	noauto,ro					0 0
+shm		/dev/shm		tmpfs	defaults					0 0
+tmpfs		/var/tmp/portage	tmpfs	uid=portage,gid=portage,mode=775,noatime	0 0
