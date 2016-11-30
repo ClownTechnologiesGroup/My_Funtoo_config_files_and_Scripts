@@ -11,7 +11,6 @@ app-arch/unrar
 app-arch/unzip
 app-arch/zip
 app-benchmarks/i7z
-app-benchmarks/phoronix-test-suite
 app-cdr/brasero
 app-cdr/dvdisaster
 app-cdr/k3b
@@ -37,6 +36,7 @@ app-text/pastebinit
 app-text/tesseract
 app-text/yagf
 dev-lang/lazarus
+dev-lang/php
 dev-util/android-tools
 dev-util/eclipse-sdk-bin
 dev-util/gambas
@@ -51,7 +51,6 @@ media-gfx/darktable
 media-gfx/digikam
 media-gfx/gimp
 media-gfx/gimp-arrow-brushes
-media-gfx/inkscape
 media-gfx/rawtherapee
 media-gfx/ufraw
 media-gfx/xsane
@@ -111,7 +110,6 @@ sys-block/ms-sys
 sys-boot/boot-update
 sys-boot/os-prober
 sys-fs/ntfs3g
-sys-kernel/dracut
 sys-kernel/genkernel-next
 sys-kernel/gentoo-sources
 sys-kernel/linux-firmware

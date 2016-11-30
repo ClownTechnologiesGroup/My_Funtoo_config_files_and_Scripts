@@ -1,7 +1,12 @@
 =app-arch/gzip-1.8 ~amd64
 =app-text/cuneiform-1.1.0-r1 ~amd64
 =app-text/yagf-0.9.3.2 ~amd64
+=dev-cpp/glibmm-2.48.1 ~amd64
+=dev-libs/glib-2.48.2 ~amd64
+=dev-libs/quazip-0.7.2 ~amd64
 =dev-util/eclipse-sdk-bin-4.3.1 **
+=dev-util/gdbus-codegen-2.48.2 ~amd64
+=kde-apps/kcalcore-16.08.2 ~amd64
 =media-libs/lensfun-0.3.2 ~amd64
 =media-libs/libopenshot-0.1.1 ~amd64
 =media-libs/libopenshot-audio-0.0.6 ~amd64
@@ -10,11 +15,11 @@
 =media-libs/wxsvg-1.5.5 ~amd64
 =media-libs/wxsvg-1.5.9 ~amd64
 =media-plugins/gimp-lensfun-0.2.4 ~amd64
+=media-plugins/kipi-plugins-5.3.0 ~amd64
 =media-video/handbrake-0.10.5 ~amd64
 =media-video/handbrake-0.10.5-r1 ~amd64
 =media-video/simplescreenrecorder-0.3.6 ~amd64
 =sys-apps/iucode_tool-1.5 ~amd64
-=sys-kernel/dracut-044 ~amd64
 =sys-power/thermald-1.5.3 ~amd64
 app-benchmarks/phoronix-test-suite ~amd64
 app-portage/gentoolkit ~amd64
@@ -22,6 +27,7 @@ dev-libs/libclc ~amd64
 dev-util/gambas ~amd64
 kde-misc/kcm-ufw ~amd64
 media-gfx/blender ~amd64
+media-gfx/digikam ~amd64
 media-gfx/rawtherapee ~amd64
 media-gfx/rawtherapee ~amd64
 media-libs/avidemux-core ~amd64
@@ -35,11 +41,10 @@ media-video/lives ~amd64
 media-video/openshot ~amd64
 media-video/pitivi ~amd64
 net-im/skype ~amd64
+net-misc/dropbox ~amd64
 net-misc/teamviewer ~amd64
 sci-geosciences/googleearth ~amd64
 sci-misc/boinc ~amd64
-sys-kernel/vanilla-sources ~amd64
 sys-power/phc-intel ~amd64
 www-plugins/google-talkplugin ~amd64
-x11-drivers/nvidia-drivers ~amd64
 x11-themes/echo-icon-theme ~amd64
