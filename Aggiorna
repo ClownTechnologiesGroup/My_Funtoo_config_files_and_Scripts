@@ -1,1 +1,0 @@
-eix-sync && emerge -DNu world --with-bdeps=y
