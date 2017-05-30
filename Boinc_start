@@ -1,3 +1,0 @@
-killall boincmgr
-service boinc start&
-
