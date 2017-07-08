@@ -1,1 +1,6 @@
-su -c "cp /home/sandro/Funtoo/{make.conf,package.unmask,package.use,package_accept_keywords} /etc/portage/"
+su -c "
+cat /home/sandro/Funtoo/make.conf > /etc/portage/make.conf
+cat /home/sandro/Funtoo/package.mask > /etc/portage/package.mask
+cat /home/sandro/Funtoo/package.unmask > /etc/portage/package.unmask
+cat /home/sandro/Funtoo/package.use > /etc/portage/package.use
+cat /home/sandro/Funtoo/package.accept_keywords > /etc/portage/package.accept_keywords"
