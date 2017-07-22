@@ -78,7 +78,7 @@ media-video/vlc
 media-video/xine-ui
 net-firewall/ufw
 net-im/pidgin
-net-im/skype
+net-im/skypeforlinux
 net-irc/hexchat
 net-misc/dropbox
 net-misc/ntp

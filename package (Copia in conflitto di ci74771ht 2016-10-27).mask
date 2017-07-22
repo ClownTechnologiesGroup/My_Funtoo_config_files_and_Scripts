@@ -1,0 +1,2 @@
+=dev-util/gambas-3.8.4
+=media-gfx/blender-2.78
